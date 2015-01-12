@@ -1,0 +1,24 @@
+{
+  "name": "philippines-poverty",
+  "version": "0.0.0",
+  "homepage": "https://github.com/danbjoseph/philippines-poverty",
+  "authors": [
+    "danbjoseph <danbjoseph@gmail.com>"
+  ],
+  "description": "visualization of 2009 and 2012 small area estimates for poverty in the Philippines",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.3",
+    "bootstrap": "~3.3.1",
+    "jquery": "~1",
+    "leaflet": "~0.7.3"
+  }
+}

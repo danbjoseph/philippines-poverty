@@ -1,0 +1,126 @@
+.container-fluid, .col-custom{
+	padding: 0px;
+}
+#map{
+    background: #111;
+}
+#infoWrapper{
+    overflow: auto;
+    background: #111;
+}
+#infoText{
+    padding: 20px;
+}
+.txt-primary {
+    color: #f0f0f0;
+}
+.txt-secondary {
+    color: #B0ABA0;
+}
+.txt-tertiary {
+    color:#636363;
+}
+.clickable{
+    cursor: pointer;
+}
+.glyphicon-custom {
+    position: static;
+    cursor: pointer;
+    font-size: 14px;
+}
+.datatoggle{
+    font-size: 110%;
+}
+.legend-colorbox {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+}
+.dropdown-menu-custom {
+	min-width: 0px;
+}
+#tooltip {                      
+    position:absolute;
+    z-index:999;
+    font-size:14px;
+    color: #1a1a1a;       
+    background-color: rgba(245,245,245,1);
+    border-radius: 3px;
+    padding: 2px;       
+}    
+#tooltip:empty {
+    display:none;
+}
+#infoAdmin {
+    position: absolute;
+    top: 10px;
+    left: 46px;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+    min-width: 150px;
+    z-index: 1;
+    background: #2b2b2b;
+}
+#infoAdmin-name {
+    font-weight: bold;
+    font-size: 120%;
+}
+#infoAdmin p {
+    margin-bottom: 0px;
+}
+
+
+/* mapped stuff */
+/* ============ */
+.municipality{
+	stroke: #757571;
+	fill: #434341;
+    stroke-width: 0.5px;
+	cursor: pointer;
+	/*fill-opacity: 0.6;*/
+}
+.otherCountry{
+    stroke: #111;
+    fill: #404040;   
+}
+
+path {
+  -webkit-transition: fill 800ms linear;
+}
+
+.group0{
+    fill: #edf8fb;
+    background: #edf8fb;
+}
+.group1{
+    fill: #b3cde3;
+    background: #b3cde3;
+}
+.group2{
+    fill: #8c96c6;
+    background: #8c96c6;
+}
+.group3{
+    fill: #8856a7;
+    background: #8856a7;
+}
+.group4{
+    fill: #810f7c;
+    background: #810f7c;
+}
+
+
+/* leaflet zoom control dark styling */
+/* ================================= */
+.leaflet-bar a,
+.leaflet-bar a:hover {
+    background-color: #2b2b2b;
+    border-color: #000;
+    color: #f0f0f0;
+}
+.leaflet-bar a.leaflet-disabled {
+    background-color: #2b2b2b;
+    color: #000;
+}
